@@ -34,18 +34,22 @@
 
 <body class="">
 
-  <main class="max-w-screen-xl md:px-40 mx-auto px-8 lg:px-8">
-    
-    <header class=" lg:flex items-center justify-between space-x-2 py-16">
+  <main class="max-w-screen-xl md:px-12 mx-auto px-8 lg:px-8">
+    <!-- ==== header ==== -->
+    <header class=" flex flex-col md:flex-row   items-center justify-between space-x-2 py-16">
       <div class="w-50%">
-        <h1 class="lg:text-7xl md:text-6xl text-4xl  font-semibold text-[#1c1c1c]">It's good <br> tea time at The Tea House</h1>
-        <p class="my-3 text-gray-600">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-        <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] font-bold text-white p-3 rounded-lg">Explore More <span><i class="ri-arrow-right-up-line"></i></span></button>
+        <h1 class="lg:text-7xl md:text-6xl text-5xl font-semibold text-[#1c1c1c]">It's good <br> tea time at The Tea
+          House</h1>
+        <p class="my-3 text-gray-600">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+        </p>
+        <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] font-bold text-white p-3 rounded-lg">Explore More
+          <span><i class="ri-arrow-right-up-line"></i></span></button>
       </div>
 
-      <div class="w-50% relative">
-        <img class="w-full" src="./images/banner.png" alt="">
-        <div class="absolute bottom-3 left-3 shadow-xl shadow-black-500/40 flex items-center justify-start p-3 gap-2 bg-white w-max rounded-lg	">
+      <div class="w-50% relative ">
+        <img class="w-full mt-5 md:mt-0" src="./images/banner.png" alt="">
+        <div
+          class="absolute bottom-3 left-3 shadow-xl shadow-black-500/40 flex items-center justify-start p-3 gap-2 bg-white w-max rounded-lg	">
           <i class="ri-star-fill text-yellow-500 text-2xl"></i>
           <div class="">
             <h3 class="font-bold">5.00</h3>
@@ -54,6 +58,40 @@
         </div>
       </div>
     </header>
+
+    <!-- ========== Featured Products ==========  -->
+
+    <section class="py-8 lg:py-24 flex items-center justify-center flex-col text-center">
+      <h3 class="text-4xl font-bold">Our Featured Products</h3>
+      <p class="md:w-9/12 my-5">There are many variations of passages of Lorem Ipsum available, but the majority have
+        suffered alteration in some form, by injected humour, or randomised words which don't look even slightly
+        believable. </p>
+      <!-- ---------- card---------- -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="text-center flex items-center justify-between flex-col p-5 bg-[#F4F4F4] rounded-lg gap-3">
+          <img src="./images/tea-1.png" alt="">
+          <h4 class="font-bold text-3xl">Milk Tea</h4>
+          <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="text-center flex items-center justify-between flex-col p-5 bg-[#F4F4F4] rounded-lg gap-3">
+          <img src="./images/tea-2.png" alt="">
+          <h4 class="font-bold text-3xl">Black Tea</h4>
+          <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="text-center flex items-center justify-between flex-col p-5 bg-[#F4F4F4] rounded-lg gap-3">
+          <img src="./images/tea-3.png" alt="">
+          <h4 class="font-bold text-3xl">Lemon Tea</h4>
+          <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="text-center flex items-center justify-between flex-col p-5 bg-[#F4F4F4] rounded-lg gap-3">
+          <img src="./images/tea-4.png" alt="">
+          <h4 class="font-bold text-3xl">Green Tea</h4>
+          <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+        </div>
+      </div>
+
+    </section>
+
   </main>
 
 </body>
