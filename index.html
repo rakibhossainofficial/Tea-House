@@ -2,13 +2,60 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Tea House</title>
+  <!-- ============Font Cdn =============== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+  <!-- ============= Remixicon Cdn ======== -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="./images/tea-1.png" type="image/x-icon">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: "Manrope", serif;
+    }
+  </style>
 </head>
 
-    <body class="bg-gray-600">
-        
-    </body>
+<body class="">
+
+  <main class="max-w-screen-xl md:px-40 mx-auto px-8 lg:px-8">
+    
+    <header class=" lg:flex items-center justify-between space-x-2 py-16">
+      <div class="w-50%">
+        <h1 class="lg:text-7xl md:text-6xl text-4xl  font-semibold text-[#1c1c1c]">It's good <br> tea time at The Tea House</h1>
+        <p class="my-3 text-gray-600">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+        <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] font-bold text-white p-3 rounded-lg">Explore More <span><i class="ri-arrow-right-up-line"></i></span></button>
+      </div>
+
+      <div class="w-50% relative">
+        <img class="w-full" src="./images/banner.png" alt="">
+        <div class="absolute bottom-3 left-3 shadow-xl shadow-black-500/40 flex items-center justify-start p-3 gap-2 bg-white w-max rounded-lg	">
+          <i class="ri-star-fill text-yellow-500 text-2xl"></i>
+          <div class="">
+            <h3 class="font-bold">5.00</h3>
+            <small>Trust Pilot Ratings</small>
+          </div>
+        </div>
+      </div>
+    </header>
+  </main>
+
+</body>
 
 </html>
